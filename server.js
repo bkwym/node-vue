@@ -4,6 +4,7 @@ const app=express();
 app.get('/',(req,res)=>{
     res.send("Hello World");
 })
+//设置运行端口
 const   port =process.env.PORT || 5000;
 
 app.listen(port,()=>{
